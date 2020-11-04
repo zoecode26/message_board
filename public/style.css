@@ -1,0 +1,40 @@
+body{
+  color: #02075d;
+  background-color: #afeeee;
+  font-family: arial;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+h3{
+  text-align: left;
+  width: 70vw;
+}
+
+p {
+  text-align: left;
+  background-color: white;
+  padding: 5px;
+  width: 70vw;
+}
+
+input, select{
+  font-size: 0.8em;
+}
+
+input[type=submit] {
+  padding:5px 15px;
+  background:#02075d;
+  color:white;
+  border:0 none;
+  cursor:pointer;
+}
+
+#allcontent {
+  margin: 0;
+  margin-bottom: 5vh;
+  position: absolute;
+  left: 12vw;
+  padding: 3vw;
+  border: 3px double #02075d;
+}

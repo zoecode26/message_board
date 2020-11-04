@@ -1,0 +1,18 @@
+<link rel="stylesheet" type="text/css" href="/style.css"/>
+<body>
+
+<h1> Message Board: </h1>
+<form action="/message">
+  <input type="submit" value="New Message"/>
+</form>
+<div id = "allcontent">
+<% @message_list.reverse.each do |message|%>
+  <% message.each do |name, content| %>
+
+    <h3><%= name %>:</h3>
+    <p><%= content%></p>
+    <hr>
+  <% end %>
+<% end %>
+</div>
+</body>
